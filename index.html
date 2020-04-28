@@ -42,7 +42,7 @@
 	</section>
 	
 <!-- About section -->
-	<section id="about-section" class="mb0 bt bw3 b--light-blue">
+	<section id="about-section" class="mb0 bt bw3 b--light-green">
 		<h1 class="subtitle" data-aos="fade-right">About me</h1>
 		<div class="pa1 pic-text-container">
 			<img 
@@ -53,13 +53,12 @@
 				data-aos-delay="500"
 			>
 			<div class="text-container tj pa4 ml2" data-aos="fade-left" data-aos-delay="1000">
-				<p class="f4-l f5 gray fw1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto quas optio, tenetur, totam modi earum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias fugiat hic, quasi illo neque reprehenderit minus modi voluptas, perspiciatis odio, dignissimos vitae dolore nobis amet quis, atque eaque sint a! 
+				<p class="f4-l f5 gray fw1">I am a trained lawyer who decided to pursue his passion of programming. I love to build beautiful single-page web applications using Javascript and React. 
 				</p>
-				<p class="f4-l f5 gray fw1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur necessitatibus perspiciatis, hic tenetur quidem officia odit ipsam. Voluptate possimus reprehenderit sit magni. Eos voluptatem ducimus mollitia, esse magni atque nam.	
+				<p class="f4-l f5 gray fw1">In my code, I follow three main principles: responsiveness, performance, and efficiency. 
 				</p>
 				<div class="button-container mt4">
-					<a class="b f4-l f5 link br2 ba bw1 pa2 pointer" id="resume" download="#resume">View resume</a>
-
+					<a class="b f4-l f5 link br2 ba bw1 pa2 pointer" id="resume" href="resume.pdf" target="blank">View resume</a>
 				</div>
 		</div>
 	</section>
@@ -69,9 +68,10 @@
 			<ul class="project-list">
 				<li class="project-element">
 					<div class="project-desc pr4-l" data-aos="fade-right" data-aos-delay="500">
-						<h3>Robofriends</h3>
+						<h3>Face Detector</h3>
 						<p class="tj gray">
-							This is my first project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi nulla pariatur at quaerat asperiores quia repellendus reprehenderit corrupti ipsam a, velit harum beatae debitis odio, minima minus voluptatum dolorem blanditiis!
+							This app does face recognition in pictures! Simply register as a user and link to a picture. The app keeps score on how many pictures you've submitted. <br> <br>
+							Built with React, Node, Express, PostgreSQL.
 						</p>
 					</div>
 					<a href="https://face-detector-soldin.herokuapp.com/" target="blank" class="black" data-aos="flip-left" data-aos-delay="1000">
@@ -79,13 +79,14 @@
 					</a>
 				</li>
 				<li class="project-element">
-					<div class="project-desc pr4-l" data-aos="fade-right" data-aos-delay="500">
-						<h3>Face Detector</h3>
+					<div class="project-desc pr4-l" data-aos="fade-right" data-aos-delay="0">
+						<h3>Movie Generator</h3>
 						<p class="tj gray">
-							This is my second project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium inventore, est accusamus soluta obcaecati tempore eius enim sunt quasi, cumque nisi quos assumenda excepturi saepe consectetur a consequuntur voluptas consequatur!
+							Looking for a movie to watch? Type in the name of any movie and get info on it in this responsive single-page web app. <br> <br>
+							Built with React + Tachyons.
 						</p>
 					</div>
-					<a href="https://svensoldin.github.io/MovieGenerator/" target="blank" class="pointer black grow" data-aos="flip-left" data-aos-delay="1000">
+					<a href="https://svensoldin.github.io/MovieGenerator/" target="blank" class="pointer black grow" data-aos="flip-left" data-aos-delay="500">
 						<img class="project-pic ba bw1 pointer" width="700px" height="auto" src="./project2.png" alt="a project"
 						>
 					</a>
@@ -108,7 +109,7 @@
  <script>
     AOS.init();
     AOS.init({
-    	delay: 100,
+    	delay: 0,
     	offset: 400,
     	once: true,
     	duration: 500
