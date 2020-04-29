@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-	<section>
+	<section id="landing">
 		<div id="particles-js">
 		</div>	
 		<!-- Navigation bar -->
@@ -44,55 +44,57 @@
 <!-- About section -->
 	<section id="about-section" class="mb0 bt bw3 b--light-green">
 		<h1 class="subtitle" data-aos="fade-right">About me</h1>
-		<div class="pa1 pic-text-container">
+		<div class="pa1 pic-text-container pt5">
 			<img 
 				id="profile-pic" class="shadow-5 br2 bw2 b--white mr2" 
 				width="250px" height="auto" 
 				src="./profile.jpg" alt="my mug"
 				data-aos="fade-right"
-				data-aos-delay="500"
 			>
-			<div class="text-container tj pa4 ml2" data-aos="fade-left" data-aos-delay="1000">
+			<div class="text-container tj pa4 ml2" data-aos="fade-left">
 				<p class="f4-l f5 gray fw1">I am a trained lawyer who decided to pursue his passion of programming. I love to build beautiful single-page web applications using Javascript and React. 
 				</p>
 				<p class="f4-l f5 gray fw1">In my code, I follow three main principles: responsiveness, performance, and efficiency. 
 				</p>
 				<div class="button-container mt4">
-					<a class="b f4-l f5 link br2 ba bw1 pa2 pointer" id="resume" href="resume.pdf" target="blank">View resume</a>
+					<a class="b f4-l f5 link br2 ba bw1 pa2 pointer mb3 mb0-m mb0-l" id="resume" href="resume.pdf" target="blank">View resume</a>
 				</div>
 		</div>
 	</section>
 	<section id="projects-section" class="mt0">
-		<h1 class="subtitle" data-aos="fade-right">Projects</h1>
+		<h1 class="subtitle mt5 mt2-m mt4-l" data-aos="fade-right">Projects</h1>
 		<div class="projects-container pa2">
 			<ul class="project-list">
 				<li class="project-element">
-					<div class="project-desc pr4-l" data-aos="fade-right" data-aos-delay="500">
+					<div class="project-desc pr4-l" data-aos="zoom-in">
 						<h3>Face Detector</h3>
 						<p class="tj gray">
 							This app does face recognition in pictures! Simply register as a user and link to a picture. The app keeps score on how many pictures you've submitted. <br> <br>
 							Built with React, Node, Express, PostgreSQL.
 						</p>
 					</div>
-					<a href="https://face-detector-soldin.herokuapp.com/" target="blank" class="black" data-aos="flip-left" data-aos-delay="1000">
-						<img class="project-pic ba bw1 b--white pointer grow" width="700px" height="auto" src="./project1.png" alt="a project">
+					<a href="https://face-detector-soldin.herokuapp.com/" target="blank" class="black" data-aos="zoom-in">
+						<img class="project-pic ba bw1 pointer grow shadow-5" width="700px" height="auto" src="./project1.png" alt="a project">
 					</a>
 				</li>
 				<li class="project-element">
-					<div class="project-desc pr4-l" data-aos="fade-right" data-aos-delay="0">
+					<div class="project-desc pr4-l" data-aos="zoom-in">
 						<h3>Movie Generator</h3>
 						<p class="tj gray">
 							Looking for a movie to watch? Type in the name of any movie and get info on it in this responsive single-page web app. <br> <br>
 							Built with React + Tachyons.
 						</p>
 					</div>
-					<a href="https://svensoldin.github.io/MovieGenerator/" target="blank" class="pointer black grow" data-aos="flip-left" data-aos-delay="500">
-						<img class="project-pic ba bw1 pointer" width="700px" height="auto" src="./project2.png" alt="a project"
+					<a href="https://svensoldin.github.io/MovieGenerator/" target="blank" class="pointer black grow pb5 pb0-m pb0-l" data-aos="zoom-in">
+						<img class="project-pic ba bw1 pointer grow shadow-5" width="700px" height="auto" src="./project2.png" alt="a project"
 						>
 					</a>
 				</li>
 			</ul>
 		</div>
+		<a id="back-top" href="#landing" class="mb2">
+			<img src="./orientation.svg" width="40px" height="auto">
+		</a>
 	</section>
 </body>
 
@@ -112,7 +114,7 @@
     	delay: 0,
     	offset: 400,
     	once: true,
-    	duration: 500
+    	duration: 800
     })
   </script>
 </html>

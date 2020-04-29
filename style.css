@@ -125,6 +125,25 @@ ul {
 	opacity: 0.8;
 }
 
+#back-top {
+	text-decoration: none;
+	color: #e31b6d;
+	padding: 10px;
+	animation: bounce infinite 1s linear;
+}
+
+@keyframes bounce {
+	0%{
+		transform: translateY(0px);
+	}
+	50% {
+		transform: translateY(10px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
+
 /*Media Queries*/
 
 @media (max-width: 800px) {
