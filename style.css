@@ -187,7 +187,7 @@ ul {
 
 	.text-container {
 		width: 100%;
-		text-align: center;
+		text-align: left;
 	}
 	.button-container {
 		display: flex;
@@ -203,6 +203,6 @@ ul {
 	}
 	.project-desc {
 		width: 100%;
-		text-align: center;
+		text-align: left;
 	}
 }
